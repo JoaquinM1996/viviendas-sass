@@ -1,0 +1,19 @@
+header {
+    background-color: $bgnav
+}
+.header__logo {
+    width: 100px;
+}
+nav {
+    background-color: $bgnav;
+    border:{
+        top: solid 1px black;
+        bottom: solid 1px black;
+    }
+    .nav-item {
+        font-size: 12px;
+        @media screen and (min-width: 800px){
+            font-size: 20px;
+        }
+    }
+}

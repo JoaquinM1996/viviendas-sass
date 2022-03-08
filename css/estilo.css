@@ -1,0 +1,106 @@
+header {
+  background-color: #8cd0f0; }
+
+.header__logo {
+  width: 100px; }
+
+nav {
+  background-color: #8cd0f0;
+  border-top: solid 1px black;
+  border-bottom: solid 1px black; }
+  nav .nav-item {
+    font-size: 12px; }
+    @media screen and (min-width: 800px) {
+      nav .nav-item {
+        font-size: 20px; } }
+
+.container-fluid {
+  text-align: center; }
+
+.main-bac {
+  background-image: url(../assets/img/fondo-index2.png); }
+  .main-bac .carousel {
+    width: 90%;
+    margin: auto;
+    margin-bottom: 125px; }
+  .main-bac #carouselExampleControls {
+    margin-top: 20px; }
+  .main-bac .carousel-item img {
+    width: 100%;
+    height: 300px;
+    border-radius: 5px; }
+    @media screen and (min-width: 800px) {
+      .main-bac .carousel-item img {
+        width: 95%;
+        height: 550px;
+        border-radius: 5px; } }
+
+.cont__imagenes__modelos img {
+  width: 300px;
+  height: 200px;
+  margin-top: 10px;
+  border-radius: 3px; }
+  @media screen and (min-width: 800px) {
+    .cont__imagenes__modelos img {
+      width: 550px;
+      height: 380px;
+      margin-top: 10px;
+      border-radius: 3px; } }
+
+.nosotros__texto {
+  margin: auto;
+  margin-top: 25px;
+  width: 100%;
+  text-align: justify;
+  background-color: #ddd9d9;
+  border-radius: 5px;
+  font-size: 15px;
+  padding: 10px; }
+  @media screen and (min-width: 800px) {
+    .nosotros__texto {
+      margin: auto;
+      margin-top: 25px;
+      width: 80%;
+      text-align: justify;
+      background-color: #ddd9d9;
+      border-radius: 5px;
+      font-size: 18px;
+      padding: 10px; } }
+  @media screen and (min-width: 800px) {
+    .nosotros__texto h2 {
+      text-align: center;
+      margin-bottom: 20px;
+      background-color: #ddd9d9; } }
+
+.nosotros__video iframe {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  width: 100%; }
+  @media screen and (min-width: 800px) {
+    .nosotros__video iframe {
+      margin-top: 25px;
+      margin-bottom: 25px;
+      width: 50%;
+      height: 550px; } }
+
+.form-group input {
+  margin: auto;
+  width: 300px; }
+  @media screen and (min-width: 800px) {
+    .form-group input {
+      margin: auto;
+      width: 400px; } }
+
+/* COMIENZO FOOTER */
+footer {
+  margin-top: 5px;
+  background-color: #e2e0e0;
+  border-top: solid 2px black; }
+
+.logo-foot img {
+  width: 50px; }
+
+.redes-foot {
+  font-size: 12px; }
+
+/* FIN FOOTER */
